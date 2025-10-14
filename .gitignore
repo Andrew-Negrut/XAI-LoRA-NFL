@@ -26,3 +26,5 @@ data/*.csv
 
 !data/shap_explainer.jsonlmodels\llama_explainer\**\checkpoint-*
 models/llama_explainer/**/tokenizer.json
+models/llama_explainer/**/checkpoint-*/
+models/llama_explainer/**/tokenizer.json
