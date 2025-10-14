@@ -5,8 +5,6 @@ peft==0.17.1
 pip-chill==1.0.3
 pyarrow-hotfix==0.7
 shap==0.48.0
-torchaudio==2.8.0.dev20251003+cu128
-torchvision==0.25.0.dev20251003+cu128
 trl==0.23.0
 tyro==0.9.32
 xgboost==3.0.5
