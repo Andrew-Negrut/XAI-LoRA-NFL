@@ -1,4 +1,4 @@
-# SHAP-Based NFL Win Explanations (XGBoost + LoRA), XAI
+# Explainable AI: SHAP-Based NFL Win Explanations (XGBoost + LoRA), 
 
 **Live demo:** https://huggingface.co/spaces/anegrut/XAI-LoRA-NFL
 
