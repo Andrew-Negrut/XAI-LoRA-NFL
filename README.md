@@ -1,12 +1,12 @@
----
-title: XAI LoRA NFL
-emoji: 🐢
-colorFrom: red
-colorTo: gray
-sdk: gradio
-sdk_version: 5.49.1
-app_file: app.py
-pinned: false
----
+# Explainable AI: SHAP-Based NFL Win Explanations (XGBoost + LoRA)
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+**Live demo:** https://huggingface.co/spaces/anegrut/XAI-LoRA-NFL
+
+Predicts NFL home wins with XGBoost and explains *why* using a LoRA-tuned LLM. Explanations are numerically faithful via a verifier (checks exact “value X” and “SHAP ±Y.YY” strings and auto-retries on failure).
+
+## Quickstart
+```bash
+conda create -n nfl python=3.10 -y && conda activate nfl
+pip install -r requirements.txt
+python app/app.py
+
