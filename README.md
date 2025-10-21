@@ -1,8 +1,8 @@
-# SHAP-Faithful NFL Win Explanations (XGBoost + LoRA)
+# SHAP-Based NFL Win Explanations (XGBoost + LoRA), XAI
 
-Live demo: https://huggingface.co/spaces/anegrut/XAI-LoRA-NFL
+**Live demo:** https://huggingface.co/spaces/anegrut/XAI-LoRA-NFL
 
-**What it does:** Predicts NFL home wins with XGBoost and explains *why* using a LoRA-tuned LLM. Explanations are numerically faithful via a verifier (it checks exact “value X” and “SHAP ±Y.YY” strings and auto-retries on failure).
+**What it does:** Predicts NFL home wins with XGBoost and explains *why* using a LoRA-tuned LLM. Explanations are numerically faithful via a verifier (checks exact “value X” and “SHAP ±Y.YY” strings and auto-retries on failure).
 
 ## Quickstart
 ```bash
